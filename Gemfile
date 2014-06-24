@@ -8,11 +8,15 @@ gem 'rails', '4.1.1'
 	  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 	  gem 'spring'
 	  gem 'spring-commands-rspec'  # Implements the 'rspec' command for 'spring'
+	  gem 'better_errors' # Better error page
+	  gem 'binding_of_caller' # Adds functionality to better_errors
+	  gem 'meta_request'  # Works with RailsPanel in Chrome (Add RailsPanel from google store)
 	end
 
 	group :development, :test do
 	  gem 'sqlite3'
 	  gem 'rspec-rails' 	# Access to RSpec generators
+	  gem 'byebug'
 	  #gem 'spork-rails'  #If spork loaded
 	end
 

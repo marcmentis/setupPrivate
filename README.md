@@ -10,7 +10,7 @@
   * `Checkout` appropriate `tags` on the `master` branch (to get LESS functionality)
     * [v0.01](https://github.com/nys-its/rails-poc/wiki/v0.01-StaticPages-Home-Page) Static Pages tag - Home Page, README.md (.rdoc converted to .md)
     * [v0.02](https://github.com/nys-its/rails-poc/wiki/v0.02-Testing) Testing tag - RSpec, Capybara, FactoryGirl (Spring as app preloader)
-    * v0.03 Debugging tag - ByeBug, BetterErrors, RailsPanel
+    * [v0.03](https://github.com/nys-its/rails-poc/wiki/v0.03-Debugging) Debugging tag - ByeBug, BetterErrors, RailsPanel
     * v0.04 Mobile First Responsive Design tag - Zurb Foundation
   * `Checkout` appropriate `branch(s)`  `merge` `branch` into `master` on your machine
     * Branches and their functionality to be determined
