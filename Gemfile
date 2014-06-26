@@ -28,7 +28,9 @@ gem 'rails', '4.1.1'
 
 	group :production do
 	end
-
+	
+# Mobile First Responsive Design
+gem 'foundation-rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
