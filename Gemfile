@@ -16,6 +16,7 @@ gem 'rails', '4.0.2'
 		gem 'selenium-webdriver', '2.35.1'  # capybara dependency
 		gem 'capybara', '2.1.0' #Simulate users BEHAVIOR.
 		gem 'spork-rails', '4.0.0'  #If spork loaded
+		gem 'factory_girl_rails', '4.2.0'  #Factory to generate data
 	end
 
 	group :production do
