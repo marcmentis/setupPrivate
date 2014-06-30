@@ -5,6 +5,9 @@ gem 'rails', '4.0.2'
 
 # Split into groups
 	group :development do
+	  gem 'better_errors' # Better error page
+	  gem 'binding_of_caller' # Adds functionality to better_errors
+	  gem 'meta_request'  # Works with RailsPanel in Chrome (Add RailsPanel from google store)
 	end
 
 	group :development, :test do
@@ -15,7 +18,7 @@ gem 'rails', '4.0.2'
 	group :test do
 		gem 'selenium-webdriver', '2.35.1'  # capybara dependency
 		gem 'capybara', '2.1.0' #Simulate users BEHAVIOR.
-		gem 'spork-rails', '4.0.0'  #If spork loaded
+		gem 'spork-rails', '4.0.0'  # To Speed up RSpec
 		gem 'factory_girl_rails', '4.2.0'  #Factory to generate data
 	end
 
@@ -59,5 +62,3 @@ end
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
-# Use debugger
-# gem 'debugger', group: [:development, :test]
