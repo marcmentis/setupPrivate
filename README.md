@@ -26,3 +26,7 @@
 #####Wiki
 Go to the [Wiki](https://github.com/nys-its/rails-poc/wiki) for more information.
 
+**v0.04 Home Page with Mobile Responsive Navigation**
+
+![homePage](https://cloud.githubusercontent.com/assets/6201245/3433664/a3c55a0c-0081-11e4-905a-df013411b10c.png)
+
